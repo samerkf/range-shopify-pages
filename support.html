@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Support · Range for Shopify</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{color-scheme:light}
+  body{margin:0;background:#F6F3FB;font-family:Nunito,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1B1330}
+  .wrap{max-width:720px;margin:0 auto;padding:48px 20px}
+  .card{background:#fff;border-radius:24px;padding:32px 28px;box-shadow:0 10px 40px rgba(93,63,211,.10)}
+  .logo{display:inline-flex;align-items:center;gap:10px;font-weight:800;font-size:22px;color:#5D3FD3;margin-bottom:20px}
+  .logo i{display:inline-block;width:36px;height:36px;border-radius:12px;background:linear-gradient(135deg,#5D3FD3,#8B6CF6)}
+  h1{font-size:28px;margin:0 0 12px;line-height:1.2}
+  h2{font-size:18px;margin:28px 0 8px}
+  p,li{font-size:16px;line-height:1.6;color:#3E3457}
+  code{background:#F0ECFA;padding:2px 6px;border-radius:6px;font-size:14px}
+  .btn{display:inline-block;margin-top:20px;background:#5D3FD3;color:#fff;text-decoration:none;font-weight:800;padding:14px 22px;border-radius:14px}
+  .muted{color:#7A7090;font-size:14px}
+  a{color:#5D3FD3}
+</style></head><body><div class="wrap"><div class="card">
+<div class="logo"><i></i>Range</div>
+<h1>Range for Shopify — Support</h1>
+<p>Connecting takes about a minute: open the <b>Range Merchant</b> app → <b>Store</b> → <b>Shopify</b> → enter your <code>.myshopify.com</code> domain → tap <b>Connect with Shopify</b> → approve on Shopify's page. Your products import right away.</p>
+<h2>Common questions</h2>
+<ul>
+  <li><b>Prices changed in Range but not in Shopify?</b> Range keeps your Range edits; re-importing never overwrites them.</li>
+  <li><b>Removed a product in Shopify?</b> It's hidden in Range on the next import.</li>
+  <li><b>Want to disconnect?</b> Uninstall the app from your Shopify admin. Everything is erased within 48 hours.</li>
+</ul>
+<p>Email <a href="mailto:support@range.app">support@range.app</a> or message us from Store → Support in the app. We answer within one business day.</p>
+
+</div><p class="muted" style="text-align:center;margin-top:20px">Range · Beirut, Lebanon · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a></p></div>
+<script>
+  // connected.html: show the store name passed by the server.
+  const q = new URLSearchParams(location.search);
+  for (const el of document.querySelectorAll("[data-shop]")) el.textContent = q.get("name") || q.get("shop") || "your store";
+</script></body></html>
